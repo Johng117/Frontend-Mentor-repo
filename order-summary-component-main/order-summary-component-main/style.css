@@ -1,0 +1,26 @@
+* {
+  background-color: hsl(225, 100%, 94%);
+}
+
+.body {
+  margin: 0.5rem;
+}
+
+.header-img-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.header-img-container img {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  max-width: 90%;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
