@@ -3,21 +3,78 @@ body {
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
+  font-family: "Red Hat Display", sans-serif, "500", "700", "900";
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  margin-top: 8rem;
-  height: 32rem;
-  width: 22rem;
-  border: 1px solid black;
-  border-radius: 2rem;
+  align-items: center;
+  margin-top: 5rem;
+  height: 38rem;
+  width: 26rem;
+  border-radius: 1.5rem;
+  background-color: white;
 }
 
 .card img {
-    width: 100%;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
+  width: 100%;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
 
+.order {
+  margin-top: 1rem;
+  font-weight: 500;
+  color: hsl(223, 47%, 23%);
+}
+
+.order h1 {
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+.listen {
+  font-size: 0.8rem;
+  color: hsl(224, 23%, 55%);
+  width: 80%;
+  margin-top: 0rem;
+}
+
+.line1,
+.line2,
+.line3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1.4rem;
+}
+
+.contract {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 4.5rem;
+  justify-content: flex-start;
+  margin-top: 1rem;
+}
+
+.contract img {
+  height: 4rem;
+  width: 4rem;
+  padding-top: 4px;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+/* .annual {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+} */
+
+.contract a {
+  display: flex;
+  align-items: center;
 }
