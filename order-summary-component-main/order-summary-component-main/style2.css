@@ -1,0 +1,23 @@
+body {
+  background: url(./images/pattern-background-desktop.svg), hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  height: 32rem;
+  width: 22rem;
+  border: 1px solid black;
+  border-radius: 2rem;
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+
+}
