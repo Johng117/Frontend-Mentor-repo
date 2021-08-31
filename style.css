@@ -115,6 +115,7 @@ button {
   color: hsl(224, 23%, 55%);
   font-weight: 900;
   box-shadow: none;
+  margin-top: 0.5rem;
 }
 
 .cancel:hover,
