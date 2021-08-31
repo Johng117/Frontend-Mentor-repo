@@ -1,2 +1,2 @@
 # Frontend-Mentor-repo
-A repository for practicing Frontend projects.
+A repository for Frontend projects.
